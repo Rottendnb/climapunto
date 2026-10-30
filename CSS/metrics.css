@@ -1,0 +1,10 @@
+@import url("legal.css");
+
+.metrics-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; margin: 28px 0; }
+.metric-card { padding: 20px; border: 1px solid var(--line); border-radius: 16px; background: var(--cream); }
+.metric-card span { display: block; color: var(--muted); font-size: 12px; }
+.metric-card strong { display: block; margin-top: 8px; font: 800 34px/1 "Manrope", sans-serif; }
+.metrics-state { padding: 14px 16px; border-radius: 10px; background: var(--mist); }
+.metrics-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
+.metrics-actions button, .metrics-actions a { padding: 10px 16px; border: 1px solid var(--ink); border-radius: 999px; background: transparent; cursor: pointer; font-weight: 700; text-decoration: none; }
+@media (max-width: 620px) { .metrics-grid { grid-template-columns: 1fr 1fr; } }
